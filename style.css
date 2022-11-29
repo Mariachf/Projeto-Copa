@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header{
+    background: rgb(18,48,27);
+    background: linear-gradient(90deg, rgba(18,48,27,1) 10%, rgba(16,77,36,1) 31%, rgba(19,83,37,1) 45%, rgba(30,109,43,1) 58%, rgba(45,142,50,1) 81%);
+    width: 100%;
+    height: 20vh;
+    color:white;
+}
+
+.BR img{
+    width: 15vh;
+    height: 10vh;
+    margin-left: 2%;
+    position: relative;
+    top:25%;
+}
+
+
+.BR{
+    width: 40%;
+}
+
+.copa{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 36px;
+    position: relative;
+    left: 10%;
+    padding-top: 2.5%;
+    font-weight: bold;
+}
+
+.bola{
+    width: 100%;
+    height: 60vh;
+    background-image: url("image/HEADER.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 100% 130vh;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    width: 30%;
+    position: relative;
+    left: 7%;
+    top: 10%;
+}
+
+.bandeira img{
+    width: 30vh;
+    height: 20vh;
+    margin-left: 3%;
+    margin-top: 1%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 1s;
+}
+
+.bandeira img:hover{
+    width: 31vh;
+    height: 21vh;
+}
+
+.bandeira {
+    margin-left: 17%;
+    margin-bottom: 5%;
+    width: 70%;
+    
+}
+
+main {
+    height: 150vh;
+   
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background: rgb(18,48,27);
+    background: linear-gradient(90deg, rgba(18,48,27,1) 10%, rgba(16,77,36,1) 31%, rgba(19,83,37,1) 45%, rgba(30,109,43,1) 58%, rgba(45,142,50,1) 81%);
+    
+}
+
+.BR-FO img{
+    width: 15vh;
+    height: 10vh;
+    margin-left: 3%;
+    position: relative;
+    top:50%;
+    left: 10%;
+}
+
+.copa-fo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copa-fo{
+    width: 90%;
+
+}
+
+.BR-FO{
+    width: 50%;
+}
+
+ p{
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+   
+
+}
+
+@media (min-width:360px) and (max-width:900px){
+
+    .BR img{
+        width: 7vh;
+        height: 5vh;
+    }
+
+    .BR{
+        margin-right: 2%;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 3%;
+
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    main{
+        width: 100%;
+        height: 160vh;
+    }
+
+    
+    .bandeira img{
+        width: 17vh;
+        height: 13vh;
+    }
+
+    .BR-FO img{
+        width: 8vh;
+        height: 6vh;
+        top: 30%;
+    }
+
+    p{
+        font-size: 20px;
+        margin-top:17%;
+    }
+}
