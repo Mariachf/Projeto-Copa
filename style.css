@@ -137,11 +137,13 @@ footer{
 
     .BR{
         margin-right: 2%;
+        width: 30%;
     }
 
     h2{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 3%;
+        width: 40%;
 
     }
 
@@ -166,8 +168,18 @@ footer{
         top: 30%;
     }
 
+    .BR-FO{
+        width: 40%;
+    }
+
     p{
         font-size: 20px;
         margin-top:17%;
     }
+
+    .bandeira img:hover{
+        width: 18vh;
+        height: 14vh;
+    }
+    
 }
